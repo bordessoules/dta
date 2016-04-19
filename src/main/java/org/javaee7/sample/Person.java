@@ -3,7 +3,9 @@ package org.javaee7.sample;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * @author arungupta
+ * @author arungupta & arthur 
+ * yeahhh yeah yeah
+ *2e modif pour test le merge
  */
 @XmlRootElement
 public class Person {
