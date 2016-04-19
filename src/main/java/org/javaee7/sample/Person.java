@@ -9,11 +9,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Person {
     private String name;
 	private String mail ;
-	
+	private int age;
     public Person() {
     }
 
-    public Person(String name, String mail) {
+    public Person(String name, String mail, int age) {
         this.name = name;
 		this.mail = mail;
     }
@@ -24,6 +24,9 @@ public class Person {
 
 	public String getMail() {
         return mail;
+    }
+	public String getAge() {
+        return age;
     }
     public void setName(String name) {
         this.name = name;
