@@ -16,6 +16,7 @@ public class Person {
     public Person(String name, String mail, int age) {
         this.name = name;
 		this.mail = mail;
+		this.age = age;
     }
     
     public String getName() {
