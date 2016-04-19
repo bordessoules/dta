@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author arungupta & arthur 
  * yeahhh yeah yeah
  *2e modif pour test le merge
+ *test merge local
  */
 @XmlRootElement
 public class Person {
